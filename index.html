@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posture Converter</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Posture Converter</h1>
+        <select id="busy">
+            <option value="setpose">setpose</option>
+            <option value="other">other</option>
+        </select>
+        <div class="text-box">
+            <textarea id="b_data" placeholder="Insert posture v6 here..."></textarea>
+            <button id="convertButton">Convert to Version 7</button>
+            <textarea id="b_converted" placeholder="converted posture..." readonly></textarea>
+        </div>
+    </div>
+
+    <script src="scripts/convert.js"></script>
+</body>
+</html>
